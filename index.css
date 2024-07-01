@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bulb{
+    width: 10%;
+    height: 30%;
+}
+.cat{
+    width: 10%;
+    height: 30%;
+}
+.btn1{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.btn2{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: red;
+}
+#switch{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
